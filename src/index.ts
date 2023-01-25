@@ -34,5 +34,4 @@ app.get("/ping", async (req: Request, res: Response) => {
             res.send("Erro inesperado")
         }
     }
-})
 
